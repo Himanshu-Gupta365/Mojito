@@ -6,7 +6,7 @@ import { useMediaQuery } from "react-responsive";
 
 const Hero = () => {
   const videoRef = useRef();
-  const isMobile = useMediaQuery({ maxWidth: 768 });
+  const isMobile = useMediaQuery({ maxWidth: 767 });
 
   useGSAP(() => {
     const heroSplit = new SplitText(".title", { type: "chars,words" });
@@ -64,7 +64,7 @@ const Hero = () => {
 
   return (
     <>
-      <section id="hero" className="noisy">
+      <section id="hero" className="noisy ">
         <h1 className="title">MOJITO</h1>
 
         <img
@@ -78,7 +78,7 @@ const Hero = () => {
           className="right-leaf"
         />
 
-        <div className="body">
+        <div className="body p-10">
           <div className="content">
             <div className="space-y-5 hidden md:block">
               <p>Cool. Crisp. Classic</p>

@@ -28,7 +28,7 @@ const Cocktails = () => {
         id="c-right-leaf"
       />
 
-      <div className="list">
+      <div className="list p-10">
         <div className="popular">
           <h2>Most Popular Cocktails: </h2>
 
