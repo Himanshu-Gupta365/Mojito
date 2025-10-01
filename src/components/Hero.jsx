@@ -12,7 +12,7 @@ const Hero = () => {
     const heroSplit = new SplitText(".title", { type: "chars,words" });
     const paragraphSplit = new SplitText(".subtitle", { type: "lines" });
 
-    heroSplit.chars.forEach((char) => char.classList.add("text-gradient"));
+    // heroSplit.chars.forEach((char) => char.classList.add("text-gradient"));
 
     gsap.from(heroSplit.chars, {
       yPercent: 100,
